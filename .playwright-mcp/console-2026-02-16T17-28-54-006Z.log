@@ -1,0 +1,7 @@
+[    2998ms] [ERROR] Framing 'https://a.claude.ai/' violates the following Content Security Policy directive: "frame-ancestors https://claude.ai https://*.claude.ai https://anthropic.com https://*.anthropic.com https://*.ant.dev". The request has been blocked.
+ @ :0
+[   13639ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://platform.claude.com/api/auth/exchange_nonce_for_code:0
+[   15179ms] [ERROR] [REACT_QUERY_CLIENT] QueryClient error: i: login_link_already_used
+    at r (https://platform.claude.com/_next/static/chunks/95233-73bd371da07308eb.js:1:15105)
+    at https://platform.claude.com/_next/static/chunks/95233-73bd371da07308eb.js:1:17005
+    at async Object.mutationFn (https://platform.claude.com/_next/static/chunks/95233-73bd371da07308eb.js:1:17823) @ https://platform.claude.com/_next/static/chunks/52291-4d468912f01fd055.js:13

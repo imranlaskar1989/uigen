@@ -1,0 +1,33 @@
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /home/imran/Downloads/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /home/imran/Downloads/uigen/package-lock.json
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.244.229.66:3000
+- Environments: .env
+
+✓ Starting...
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+✓ Ready in 8.9s
+○ Compiling / ...
+ GET / 200 in 15.2s (compile: 5.8s, proxy.ts: 693ms, render: 8.7s)
+ GET / 200 in 1031ms (compile: 391ms, proxy.ts: 62ms, render: 578ms)
+No ANTHROPIC_API_KEY found, using mock provider
+ POST /api/chat 200 in 16.0s (compile: 755ms, proxy.ts: 205ms, render: 15.1s)
+✓ Compiled in 12.3s
+No ANTHROPIC_API_KEY found, using mock provider
+ POST /api/chat 200 in 8.2s (compile: 377ms, proxy.ts: 30ms, render: 7.7s)
+ GET / 200 in 772ms (compile: 67ms, proxy.ts: 35ms, render: 669ms)
+No ANTHROPIC_API_KEY found, using mock provider
+ POST /api/chat 200 in 13.7s (compile: 22ms, proxy.ts: 23ms, render: 13.7s)
+ GET / 200 in 1127ms (compile: 22ms, proxy.ts: 30ms, render: 1076ms)
+✓ Compiled in 980ms
+✓ Compiled in 1369ms
+ GET / 200 in 6.1s (compile: 474ms, proxy.ts: 695ms, render: 4.9s)
+No ANTHROPIC_API_KEY found, using mock provider
+ POST /api/chat 200 in 22.6s (compile: 2.6s, proxy.ts: 229ms, render: 19.7s)
+[?25h
